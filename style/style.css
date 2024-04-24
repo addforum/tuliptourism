@@ -1,0 +1,253 @@
+body{
+  background:#F2F3F4;
+  font-size:small;
+  font-weight: 450;
+  font-family:monospace;
+   
+
+}
+.container{
+  width: 85%;
+  overflow: hidden;
+   margin: 20px,auto;
+  padding: 20px 0px;
+  background-color: rgba(221, 254, 255, 0.61);
+}
+.container ul {
+  padding:0px;
+  margin: 0px;
+  }
+.container ul li{
+  list-style: none;
+  float: left;
+  width: 23%;
+  height: 230px;
+  background: rgb(0, 0, 0);
+  margin: 40px 30px 30px 50px;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  display: flex;
+  
+}
+.container ul li .title{
+  width: 100%;
+  height: 50Px;
+  line-height: 50px;
+  background: rgb(205, 240, 89);
+  text-align: center;
+  flex-wrap: wrap;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  font-weight: 700;
+}
+@media screen and (max-width:1200px) {
+  .container ul li{
+    width: 40%;
+    margin-left: 40px;
+
+  }
+  
+}
+
+img.abc{
+  margin: 0px;
+  padding: 1.2px;
+}
+.border-primary{
+  bs-border-opacity: 10;
+}
+.maindiv{
+  width: 50%;
+  height: 300%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-size: 100%,100%;
+
+}
+
+.hello {
+  position:relative;
+  max-width:auto; /* Maximum width */
+  margin:auto; /* Center it */
+}
+
+.hello .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.8); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 30px; /* Some padding */
+  height: fit-content;
+}
+.xyz{
+  background-color: rgb(247, 255, 254);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.mno {
+  width: 1200px;
+  border: 5px solid rgb(183, 145, 255);
+  padding: 20px;
+  margin: 15px;
+  background-color: bisque;
+}
+.table{
+  background: #ef9c9c;
+}
+.qwe{
+  text-decoration: none;
+}
+.zxc:hover {
+  background-color: #9568ad;
+}
+.jkl{
+width:50%;
+height: 90px;
+border-radius:90%;
+border: 10px dotted rgb(8, 3, 3);
+}
+ul.li{
+  list-style:decimal;
+}
+#fixit{
+  background-color: rgba(165, 92, 2, 0.222);
+}
+.mnb {
+  margin: auto;
+  width: 90%;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+}
+#fgh {
+  border: 0px;
+  width: 90%;
+   background: #43049b82; 
+}
+#search{
+  width: 70%;
+  height: 70%;
+  background-color: rgba(245, 245, 245, 0.258);
+}
+#submit{
+  width: 20%;
+  color:rgb(255, 255, 255);
+  background-color:rgba(0, 0, 0, 0.627);
+}
+.span{
+  align-content:space-between;
+}
+.div{
+  width: 75%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.img{
+  width:2%;
+  height: 25px;
+  border-radius:90%;
+  border: 0px dotted rgb(8, 3, 3);
+  }
+.footer{
+  padding:30px;
+  margin: 60px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+.span{
+  align-content: end;
+}
+#xcv{
+  padding-bottom: 20px;
+  margin: 0px;
+}
+.container-abc{
+  background: #07caa6;
+}
+#xcv,td{
+  height: 70px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 120px;
+  width: 93%;
+  font-size:large;
+   
+}
+.logo {
+  width: 55%;
+  height: 120px;
+  
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a h2{
+  color: #2d018a;
+  position: relative;
+  padding: 5px 0;
+  text-decoration: none;
+}
+nav ul li a h2:hover {
+  color: #690d0d;
+}
+nav ul li a h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #fd4766;
+  transition: 0.5s;
+  bottom: 0;
+}
+nav ul li a h2:hover:after {
+  width: 100%;
+  background: #fd4766;
+  transition: 0.5s;
+}
+.btn{
+  background: #006965;
+}
